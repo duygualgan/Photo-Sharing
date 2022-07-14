@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "297578169488",
+    "project_id": "photo-sharing-9debd",
+    "storage_bucket": "photo-sharing-9debd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297578169488:android:c3cbbc3be13eb40ef94415",
+        "android_client_info": {
+          "package_name": "com.example.photosharing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297578169488-umrpjj3cil5blgd2vibtsklj9b4loupb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAoUR_B9UzBhJbljktjf3zKU7qaVXtegE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297578169488-umrpjj3cil5blgd2vibtsklj9b4loupb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
