@@ -63,6 +63,8 @@ class SharingActivity : AppCompatActivity() {
                 val yuklenenGorselReference = FirebaseStorage.getInstance().reference.child("images").child(gorselIsmi)
                 yuklenenGorselReference.downloadUrl.addOnSuccessListener { uri ->
                     val downloadUrl = uri.toString()
+                    // paylaş ekranına düşen emaili kullanıcı adı yapma
+
                     val guncelKullaniciEmail = auth.currentUser!!.email.toString()
                     val kullaniciYorumu = binding.yorumText.text.toString()
                     val tarih = com.google.firebase.Timestamp.now()

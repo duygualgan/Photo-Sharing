@@ -53,6 +53,7 @@ class MainActivity : AppCompatActivity() {
 
     fun register(view : View){
         val email = binding.etEmail.text.toString()
+        val nick = binding.etNickname.text.toString()
         val sifre = binding.etPassword.text.toString()
 
         auth.createUserWithEmailAndPassword(email, sifre).addOnCompleteListener { task ->
